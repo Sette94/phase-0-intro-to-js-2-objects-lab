@@ -1,4 +1,7 @@
 require ( './helpers.js' );
+employee = {}
+employee.name = "David Cone"
+employee.streetAdress = "161st Street & River Ave"
 
 describe('employees', function() {
   describe('updateEmployeeWithKeyAndValue(employee, key, value)', function () {
